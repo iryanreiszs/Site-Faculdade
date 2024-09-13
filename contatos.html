@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade URP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <div class="titulo">
+            <h1><a href="index.html">Universidade Ryan Poltronieri</a></h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="qs.html">Quem somos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h3>Entre em contato</h3>
+        <p>Estamos aqui para ajudar você com qualquer dúvida ou questão que possa ter sobre a Faculdade de Inovação. Se você está interessado em saber mais sobre nossos cursos, processos de admissão, ou qualquer outro aspecto da nossa instituição, não hesite em nos contactar. Nossa equipe está pronta para oferecer todas as informações que você precisa e garantir que sua experiência conosco seja a melhor possível.</p>
+        <hr class="linha-azul">
+    </section>
+
+    <form action="enviar-contato.php" method="post" class="enviar-contato">
+       <section>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </section>
+        
+        <section>
+            <label for="assunto">Assunto:</label>
+            <input type="assunto" id="assunto" name="email" required>
+        </section>
+        
+        <section>
+            <label for="descrição">Descrição:</label>
+            <input type="descrição" id="descrição" name="descrição" required>  
+        </section>
+
+        <section>
+            <button type="submit">Enviar</button>
+        </section>
+          
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Universidade Ryan Poltronieri. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
